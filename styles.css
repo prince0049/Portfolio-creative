@@ -300,3 +300,29 @@
     margin-bottom: 10px;
   }
 }
+
+/* --- Anti débordement mobile --- */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container, .section, .intro, .presentation {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1, h2, h3, p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
