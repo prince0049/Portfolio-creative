@@ -256,4 +256,47 @@
     .btn:hover {
       opacity: 0.8;
     }
-    
+
+    /* --- Responsive Design pour mobile --- */
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+
+  h1, h2, h3, p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .section {
+    padding: 20px 10px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
