@@ -326,3 +326,33 @@ img, video {
   display: block;
   margin: 10px auto;
 }
+
+/* --- Supprimer le débordement horizontal --- */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section, .container, .intro, .presentation {
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+h1, h2, h3, p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
